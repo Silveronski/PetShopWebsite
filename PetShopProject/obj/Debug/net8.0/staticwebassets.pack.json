@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\cat.png",
+      "PackagePath": "staticwebassets\\images\\animalImages\\cat.png"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\dog.png",
+      "PackagePath": "staticwebassets\\images\\animalImages\\dog.png"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\eagle.jpg",
+      "PackagePath": "staticwebassets\\images\\animalImages\\eagle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\frog.jpeg",
+      "PackagePath": "staticwebassets\\images\\animalImages\\frog.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\goldfish.png",
+      "PackagePath": "staticwebassets\\images\\animalImages\\goldfish.png"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\guppy.jpeg",
+      "PackagePath": "staticwebassets\\images\\animalImages\\guppy.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\hamster.png",
+      "PackagePath": "staticwebassets\\images\\animalImages\\hamster.png"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\iguana.jpeg",
+      "PackagePath": "staticwebassets\\images\\animalImages\\iguana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\lizard.jpeg",
+      "PackagePath": "staticwebassets\\images\\animalImages\\lizard.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\owl.png",
+      "PackagePath": "staticwebassets\\images\\animalImages\\owl.png"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\parrot.jpg",
+      "PackagePath": "staticwebassets\\images\\animalImages\\parrot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\rabbit.jpg",
+      "PackagePath": "staticwebassets\\images\\animalImages\\rabbit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\shark.png",
+      "PackagePath": "staticwebassets\\images\\animalImages\\shark.png"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\snake.png",
+      "PackagePath": "staticwebassets\\images\\animalImages\\snake.png"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\images\\animalImages\\turtle.png",
+      "PackagePath": "staticwebassets\\images\\animalImages\\turtle.png"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\scripts\\FormValidator.js",
+      "PackagePath": "staticwebassets\\scripts\\FormValidator.js"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\scripts\\addAnimal.js",
+      "PackagePath": "staticwebassets\\scripts\\addAnimal.js"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\scripts\\animalDetails.js",
+      "PackagePath": "staticwebassets\\scripts\\animalDetails.js"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\scripts\\catalog.js",
+      "PackagePath": "staticwebassets\\scripts\\catalog.js"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\scripts\\editAnimal.js",
+      "PackagePath": "staticwebassets\\scripts\\editAnimal.js"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\scripts\\homePage.js",
+      "PackagePath": "staticwebassets\\scripts\\homePage.js"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\styles\\Layout.css",
+      "PackagePath": "staticwebassets\\styles\\Layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\styles\\admin.css",
+      "PackagePath": "staticwebassets\\styles\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\styles\\animalDetails.css",
+      "PackagePath": "staticwebassets\\styles\\animalDetails.css"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\styles\\catalog.css",
+      "PackagePath": "staticwebassets\\styles\\catalog.css"
+    },
+    {
+      "Id": "C:\\Users\\Ron\\Desktop\\projects\\Projects\\PetShopProjectSolution\\PetShopProject\\wwwroot\\styles\\homePage.css",
+      "PackagePath": "staticwebassets\\styles\\homePage.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PetShopProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PetShopProject.props",
+      "PackagePath": "build\\PetShopProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PetShopProject.props",
+      "PackagePath": "buildMultiTargeting\\PetShopProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PetShopProject.props",
+      "PackagePath": "buildTransitive\\PetShopProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

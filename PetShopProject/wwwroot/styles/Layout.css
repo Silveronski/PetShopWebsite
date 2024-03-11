@@ -1,0 +1,78 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(42, 41, 41);
+}
+
+.navbar{
+    position:relative;
+}
+
+.navbar .nav-list {
+    position: fixed;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: linear-gradient(180deg, rgb(94, 226, 153), rgb(70, 150, 147));
+    box-shadow: 1vh 1vh 3vh rgb(20, 20, 20);
+    z-index: 5;
+}
+
+.navbar .nav-list li a {
+    padding: 1vw;
+    font-size: 1.5vw;
+    font-family: Impact;
+    cursor: pointer;
+    border: solid 0.1vh black;
+    display: block;
+    color: rgb(239, 239, 239);
+    transition: 0.5s ease-in-out;
+    text-decoration: none; 
+    font-style:italic;
+}
+
+.navbar .nav-list li:hover a{
+    background-color:aliceblue;
+    color:black;
+    transform:scale(1.05);
+}
+
+.navbar span {
+    position: fixed;
+    color: white;
+    font-size: 2.9300vw;
+    right: 35%;
+    z-index: 6;
+    letter-spacing: 0.6vw;
+    font-family:'Old English Text MT';
+    font-weight: bolder;
+    text-shadow: 0.5vh 0.5vh 0.5vh #007bff;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.navbar span:hover{
+    transform:scale(1.05);
+    color:#007bff;
+    text-shadow: 0.3vh 0.3vh 0.5vh white;
+}
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(20, 150, 150);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(64, 90, 125);
+    border-radius: 100vw;
+    border: solid 0.15em rgb(20, 150, 125);
+}

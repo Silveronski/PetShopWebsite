@@ -1,0 +1,28 @@
+﻿@using PetShopProject.Data.Enums
+@model List<PetShopProject.Models.Animal>
+
+@{
+	ViewBag.Title = "Pets Catalog";
+}
+
+@await Html.PartialAsync("AnimalCategorySelection")
+
+<table class="animals-table catalog-table">
+	<tr class="header-text">
+		<th class="hover-effect">@Html.DisplayNameFor(model => model[0].PictureName)</th>
+		<th class="hover-effect">@Html.DisplayNameFor(model => model[0].Name)</th>
+		<th class="hover-effect">Find out more</th>
+	</tr>
+
+	@await Html.PartialAsync("NoAnimalsToDisplay")
+
+	@foreach (var animal in Model)
+	{
+		<tr class="animal-info" id="@animal.CategoryId">
+			<td class="hover-effect"><img src="@Url.Content(animal.PictureName)" alt="Animal Image" /></td>
+			<td class="hover-effect">@animal.Name</td> 
+			<td><a class="more-details" href="@Url.Action("AnimalDetails", "PetShop", new { id = animal.AnimalId })">More Details</a></td>
+		</tr>
+	}
+</table>
+

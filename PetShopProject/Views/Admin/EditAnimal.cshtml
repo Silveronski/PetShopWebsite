@@ -1,0 +1,67 @@
+﻿@using PetShopProject.Data.Enums
+@model PetShopProject.Models.Animal
+
+@{
+	ViewBag.Title = "Edit Animal";
+}
+
+<div class="admin-main-container add-animal-container edit-animal-container">
+	<form method="post" asp-action="EditAnimal" enctype="multipart/form-data">
+		<div class="admin-form-container">
+
+			<h1>Edit Animal</h1>
+			<input type="hidden" asp-for="AnimalId"/>
+			<input type="hidden" asp-for="PictureName"/>
+			<input type="hidden" id="selectedCategoryIndex" name="selectedCategoryIndex" value="@Model.CategoryId"/>
+
+			<div class="inner-form-container">				
+				<div class="main-input-container">
+					<div class="input-container">
+						<label asp-for="Name"></label>
+						<input asp-for="Name" class="form-input" />
+						<span asp-validation-for="Name"></span>
+					</div>
+
+					<div class="input-container">
+						<label asp-for="Age"></label>
+						<input asp-for="Age" class="form-input" />
+						<span asp-validation-for="Age"></span>
+					</div>
+
+					<div class="input-container">
+						<label asp-for="Description"></label>
+						<input asp-for="Description" class="form-input" />
+						<span asp-validation-for="Description"></span>
+					</div>
+
+					<div class="input-container">
+						<label asp-for="PictureName"></label>
+						<input asp-for="PictureName" type="file" accept="image/*" id="imgFileInput" name="imgFileInput" class="form-input"/>
+						<label id="browse-iamges" for="imgFileInput">Browse Files</label>
+						<span asp-validation-for="PictureName"></span>
+					</div>
+
+					<div class="input-container">
+						<label asp-for="Category!.Name"></label>
+						<select id="add-animal-selection" name="animals" onchange="updateSelectedIndex(this)" class="form-input">
+							@foreach (var category in Enum.GetValues(typeof(CategoryType)))
+							{
+								<option value="@category">@category</option>
+							}						
+						</select>
+						<span asp-validation-for="CategoryId"></span>
+					</div>
+
+					<div class="admin-buttons">
+						<button type="submit" class="admin-button add-button">Edit</button>
+						<button type="button" class="admin-button" onclick="window.location.href='@Url.Action("AdminHomePage")'">Back to admin page</button>
+					</div>
+				</div>				
+
+			</div>
+		</div>
+	</form>
+</div>
+
+<script src="~/scripts/editAnimal.js"></script>
+<script src="~/scripts/FormValidator.js"></script>

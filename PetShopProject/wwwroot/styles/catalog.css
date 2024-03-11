@@ -1,0 +1,81 @@
+﻿.catalog-table{
+    width: 55vw;    
+    height: 8vw;
+    margin-bottom: 8vh;  
+}
+
+.catalog-table:hover{
+    transform:none;
+}
+
+.catalog-table .header-text th {
+    font-size: 2vw;
+    padding: 1vw;
+    text-shadow: 1vh 1vh 4vh #007bff;
+    text-decoration: underline;
+    font-family: Impact;
+    font-style:italic;
+    font-weight: 200;
+}
+
+.catalog-table .animal-info img {
+    width: 11vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.catalog-table .animal-info td{
+    border: solid white 0.3vw;
+    font-size: 1.7vw; 
+}
+
+.more-details{
+    text-decoration: none;
+    border: solid white 0.3vw;
+    padding: 0.7vw;
+    cursor:pointer;
+    transition: 0.7s;
+    border-radius: 5%;
+}
+
+.more-details:hover{
+    background-color:#007bff;
+    text-shadow: 0.1vh 0.1vh 1vh white;
+}
+
+.category-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.category-option,
+#category-selection {
+    color: white;
+    font-size: 1.8vw;
+    padding: 0.5vw;
+    text-align: center;
+    border-radius: 5%;
+    font-family: Verdana;
+    background-color: rgb(64, 100, 105);
+    border: white solid 0.5vh;
+}
+
+#category-selection:hover{
+    background-color: rgb(20, 175, 150);
+}
+
+#category-selection{
+    margin-left:1.5vw;
+    transition: 0.5s;
+}
+
+#category-label {
+    font-size: 2.5vw;
+    font-family: Verdana;
+    margin-bottom: 0.2vw;
+    text-shadow: 1vh 1vh 4vh rgb(0, 0, 0);
+    text-shadow: 1vh 1vh 4vh #007bff;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+﻿@using PetShopProject.Data.Enums
+
+<div class="category-container">
+	<label for="category-selection" id="category-label">Select a category:</label>
+
+	<select id="category-selection" name="animals">
+
+		<option value="All" class="category-option">All</option>
+		@foreach (var category in Enum.GetValues(typeof(CategoryType)))
+		{
+			<option value="@category" class="category-option">@category</option>
+		}
+	</select>
+</div>

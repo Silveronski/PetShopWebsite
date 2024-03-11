@@ -1,0 +1,37 @@
+﻿@using PetShopProject.Data.Enums
+@model List<PetShopProject.Models.Animal>
+
+@{
+	ViewBag.Title = "Admin Home Page";
+}
+
+@await Html.PartialAsync("AnimalCategorySelection")
+
+<div class="add-animal-container"><a class="add-animal" asp-action="AddAnimal" asp-controller="Admin">Add new animal</a></div>
+
+<table class="animals-table catalog-table admin-table">
+	<tr class="admin-header-text">
+		<th class="hover-effect">@Html.DisplayNameFor(model => model[0].PictureName)</th>
+		<th class="hover-effect">@Html.DisplayNameFor(model => model[0].Name)</th>
+		<th class="hover-effect">@Html.DisplayNameFor(model => model[0].Age)</th>
+		<th class="hover-effect">@Html.DisplayNameFor(model => model[0].Description)</th>
+		<th class="hover-effect actions-header">Actions</th>
+	</tr>
+
+	@await Html.PartialAsync("NoAnimalsToDisplay")
+
+	@foreach (var animal in Model)
+	{
+		<tr class="animal-info" id="@animal.CategoryId">
+			<td class="hover-effect"><img src="@Url.Content(animal.PictureName)" alt="Animal Image" /></td>
+			<td class="hover-effect">@animal.Name</td>
+			<td class="hover-effect">@animal.Age</td>
+			<td class="hover-effect">@animal.Description</td>
+			<td>
+				<a class="admin-action" asp-action="EditAnimal" asp-controller="Admin" asp-route-id="@animal.AnimalId">Edit</a>
+				<a class="admin-action" asp-action="DeleteAnimal" asp-controller="Admin" asp-route-id="@animal.AnimalId">Delete</a>		
+			</td>
+		</tr>
+	}
+</table>
+

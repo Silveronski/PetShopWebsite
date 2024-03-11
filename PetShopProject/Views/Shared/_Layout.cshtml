@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/styles/Layout.css"/>
+    <link rel="stylesheet" href="~/styles/homePage.css"/>
+    <link rel="stylesheet" href="~/styles/catalog.css"/>
+    <link rel="stylesheet" href="~/styles/animalDetails.css"/>
+    <link rel="stylesheet" href="~/styles/admin.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a asp-action="HomePage" asp-controller="PetShop">Home</a></li>
+                <li><a asp-action="Catalog" asp-controller="PetShop">Pets Catalog</a></li>
+                <li><a asp-action="AdminHomePage" asp-controller="Admin">Admin</a></li>
+            </ul>
+            <span>Ron's Pet Shop</span>
+        </nav>      
+    </header>
+    <div style="padding-top:10vh">
+        <partial name="_Notification"></partial>
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/scripts/homePage.js"></script>
+    <script src="~/scripts/catalog.js"></script>
+
+</body>
+</html>

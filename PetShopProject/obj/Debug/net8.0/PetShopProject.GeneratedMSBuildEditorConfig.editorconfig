@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PetShopProject
+build_property.RootNamespace = PetShopProject
+build_property.ProjectDir = C:\Users\Ron\Desktop\projects\Projects\PetShopProjectSolution\PetShopProject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ron\Desktop\projects\Projects\PetShopProjectSolution\PetShopProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/Admin/AddAnimal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQW5pbWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/Admin/AdminHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Ib21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/Admin/DeleteAnimal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlQW5pbWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/Admin/EditAnimal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEFuaW1hbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/PetShop/AnimalDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0U2hvcFxBbmltYWxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/PetShop/Catalog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0U2hvcFxDYXRhbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/PetShop/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0U2hvcFxIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/Shared/AnimalCategorySelection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFuaW1hbENhdGVnb3J5U2VsZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/Shared/NoAnimalsToDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vQW5pbWFsc1RvRGlzcGxheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ron/Desktop/projects/Projects/PetShopProjectSolution/PetShopProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,50 @@
+﻿@using PetShopProject.Data.Enums
+@model PetShopProject.Models.Animal
+
+@{
+	ViewBag.Title = "Delete " + Model.Name;
+}
+
+<div class="admin-main-container">
+	<form method="post" asp-action="DeleteAnimal">
+		<div class="admin-form-container">
+
+			<h1>Delete @Model.Name</h1>
+			<input type="hidden" asp-for="AnimalId" />
+
+			<div class="inner-form-container">
+				<div class="main-input-container">
+					<div class="input-container">
+						<label asp-for="Name"></label>
+						<input asp-for="Name" disabled />
+					</div>
+
+					<div class="input-container">
+						<label asp-for="Age"></label>
+						<input asp-for="Age" disabled />
+					</div>
+
+					<div class="input-container">
+						<label asp-for="Description"></label>
+						<input asp-for="Description" disabled />
+					</div>
+
+					<div class="input-container">
+						<label asp-for="Category!.Name"></label>
+						<input asp-for="Category!.Name" disabled />
+					</div>
+
+					<div class="admin-buttons">
+						<button type="submit" class="admin-button">Delete</button>
+						<button type="button" class="admin-button" onclick="window.location.href='@Url.Action("AdminHomePage")'">Back to admin page</button>
+					</div>
+				</div>
+				
+				<div class="image-container">
+					<img src="@Url.Content(Model.PictureName)" alt="Animal Image" />
+				</div>
+
+			</div>			
+		</div>
+	</form>
+</div>

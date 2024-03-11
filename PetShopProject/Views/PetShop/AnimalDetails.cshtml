@@ -1,0 +1,56 @@
+﻿@using PetShopProject.Data.Enums
+@model PetShopProject.Models.Animal
+
+@{
+	ViewBag.Title = Model.Name + " Details";
+}
+
+<div class="title-backBtn-container">
+	<h1 id="animal-details-title">@Model.Name Details:</h1>
+	<a asp-action="Catalog" asp-controller="PetShop">Back</a>
+</div>
+
+
+<table class="animals-table animal-details">
+
+	<tr class="animal-info">		
+		<td class="hover-effect display-name-for">@Html.DisplayNameFor(model => model.Name)</td>
+		<td class="hover-effect">@Html.DisplayFor(model => model.Name)</td>
+	</tr>
+
+	<tr class="animal-info">
+		<td class="hover-effect display-name-for">@Html.DisplayNameFor(model => model.Age)</td>
+		<td class="hover-effect">@Html.DisplayFor(model => model.Age)</td>
+	</tr>
+
+	<tr class="animal-info">
+		<td class="hover-effect display-name-for">@Html.DisplayNameFor(model => model.Description)</td>
+		<td class="hover-effect">@Html.DisplayFor(model => model.Description)</td>
+	</tr>
+
+	<tr class="animal-info">
+		<td class="hover-effect display-name-for">@Html.DisplayNameFor(model => model.Category!.Name)</td>
+		<td class="hover-effect">@Html.DisplayFor(model => model.Category!.Name)</td>
+	</tr>
+		
+</table>
+
+<div class="comments-form-container">
+	<form class="animal-details-form" asp-controller="PetShop" asp-action="SubmitComment" method="post">
+		<input type="hidden" name="id" value="@Model.AnimalId"/>
+		<input type="text" name="comment" id="comment-box" placeholder="Add your comment here"/>
+		<span id="comment-error"></span>
+		<button id="submit-comment-button" type="submit">Submit Comment</button>
+	</form>
+
+
+	<h2 id="comments-title">Comments on this animal:</h2>
+	<ul class="comments-ul">
+		@foreach (var comment in Model.Comments!)
+		{
+			<li class="comment-li">@comment.CommentText</li>
+		}
+	</ul>
+</div>
+
+<script src="~/scripts/animalDetails.js"></script>

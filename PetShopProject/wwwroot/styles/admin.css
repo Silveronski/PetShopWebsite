@@ -1,0 +1,269 @@
+﻿.admin-table{
+    width: 65vw;
+    margin-top:2.5vh;
+}
+
+.admin-header-text th {
+    font-size: 2vw;
+    padding: 1vw;
+    text-shadow: 1vh 1vh 4vh #007bff;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 100;
+    font-family: Impact;
+    width: 20%;
+    border: solid white 0.3vw;
+}
+
+.add-animal-container{
+    position: relative;
+}
+
+.add-animal {
+    outline: 0.2vw white solid;
+    display: block;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 0.3vw;
+    color: white;
+    border-radius: 5%;
+    text-decoration: none;
+    width: 12.5%;
+    height: 5vh;
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 70%;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.admin-action {
+    outline: 0.2vw white solid;
+    display: block;
+    margin: 2vw 1vw 2vw 1vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 0.3vw;
+    color: white;
+    border-radius: 7%;
+    text-decoration: none;
+}
+
+.admin-action:nth-child(1){
+    margin-bottom: 3vw;
+    background-color: rgb(250, 154, 20);
+}
+
+.admin-action:nth-child(1):hover{
+    background-color: rgb(360, 200, 10);
+}
+
+.admin-action:nth-child(2){
+    margin-top: 3vw;
+    background-color: rgb(210, 31, 31);
+}
+
+.admin-action:nth-child(2):hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+.admin-main-container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.admin-form-container{
+    width: 48vw;
+    height: 47vh;
+    border: 0.3vw white solid;
+    background-color: rgb(64, 100, 105);
+    padding: 1vw;
+    position:relative;
+}
+
+
+
+
+
+.admin-form-container h1{
+    text-align:center;
+    margin-bottom: 4vh;
+    font-size: 2vw;
+    font-family: Verdana;
+    text-shadow: 1vh 1vh 4vh #007bff;
+}
+
+.inner-form-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.input-container {
+    padding: 0.5vw;
+    position: relative;
+    width: 100% !important;
+}
+
+.input-container label {
+    display: inline-block;
+    width: 8vw;
+    font-size: 1vw;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.input-container input{
+    background-color:rgb(15, 120, 125);
+    height: 3vh;
+    font-size: 0.7vw;
+    color: white;
+    font-family:sans-serif;
+    font-weight: 800;
+    padding-left: 0.3vw;
+    border: 0.1vw white solid;
+    transition: 0.5s;
+    margin-right: 0.7vw;
+}
+
+.input-container span{
+    position:fixed;    
+    color: red;
+    font-weight: 600;
+    font-family:sans-serif;
+    margin-top: 0.3vw;
+}
+
+.input-container input:hover,
+.input-container input:focus,
+.input-container select:hover,
+#browse-iamges:hover,
+.input-container input::placeholder
+{
+    background-color: rgb(64, 80, 200);
+    color: rgb(18, 242, 187);
+    border-color: rgb(18, 242, 187);
+}
+
+.image-container img {   
+    width: 14vw;
+    border: 0.3vw white solid;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+.admin-buttons{
+    margin-top:3vh;
+    margin-left: 0.5vw;
+}
+
+.admin-buttons button:nth-child(1){
+    background-color: hsl(360, 75%, 40%);
+}
+
+.admin-buttons button:nth-child(1):hover{
+    background-color: hsl(360, 100%, 45%);
+}
+
+.admin-buttons button:nth-child(2){
+    background-color: hsl(30, 75%, 55%);
+}
+
+.admin-buttons button:nth-child(2):hover {
+    background-color: hsl(30, 100%, 55%);
+}
+
+.admin-buttons button{
+    width: 9vw;
+    height: 5vh;
+    margin-right: 1vw;
+    color: white;
+    border-radius: 5%;
+    border: white solid 0.2vw;
+    font-size: 0.7vw;
+    cursor: pointer;
+    font-family: Verdana;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.admin-buttons button:hover,
+.image-container img:hover
+{
+    transform:scale(1.05);  
+}
+
+
+
+
+.add-animal-container .admin-form-container {
+    height: 48vh;   
+}
+
+.flex-container{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.input-container select,
+.input-container select option {
+    background-color: rgb(15, 120, 125);
+    height: 3vh;
+    font-size: 0.7vw;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding-left: 0.3vw;
+    border: 0.1vw white solid;
+    transition: 0.5s;
+    margin-right: 0.7vw;
+}
+
+#imgFileInput{
+    width:10.7vw;
+}
+
+.input-container input[type="file"]{
+    display:none;
+}
+
+#browse-iamges {
+    background-color: rgb(15, 120, 125);
+    width: 10.7vw;
+    height: 3vh;
+    font-size: 0.7vw;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding-left: 0.3vw;
+    padding-top: 0.2vh;
+    border: 0.1vw white solid;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 0.7vw;
+}
+
+
+.add-animal-container .admin-buttons button:nth-child(1) {
+    background-color: hsl(120, 60%, 40%);
+}
+
+.add-animal-container .admin-buttons button:nth-child(1):hover {
+    background-color: hsl(120, 100%, 65%);
+}
+
+.add-animal:hover {
+    background-color: hsl(120, 80%, 40%);
+}
+
+
+
+
+.edit-animal-container img{
+    margin-top: 1.5vh;
+}

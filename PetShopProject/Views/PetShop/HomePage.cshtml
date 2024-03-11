@@ -1,0 +1,32 @@
+﻿@model List<PetShopProject.Models.Animal>
+
+@{
+	ViewBag.Title = "Home Page";
+}
+
+<h2 class="table-title">The most highly rated pets today:</h2>
+
+
+<table class="animals-table">
+
+	<tr class="header-text">
+		<th class="hover-effect">@Html.DisplayNameFor(model => model[0].PictureName)</th>
+		<th class="hover-effect">@Html.DisplayNameFor(model => model[0].Name)</th>
+		<th class="hover-effect">@Html.DisplayNameFor(model => model[0].Description)</th>
+		<th class="hover-effect">@Html.DisplayNameFor(model => model[0].Comments)</th>
+	</tr>
+
+	@await Html.PartialAsync("NoAnimalsToDisplay")
+
+	@foreach(var animal in Model)
+	{		
+		<tr class="animal-info">
+			<td class="hover-effect"><img src="@Url.Content(animal.PictureName)" alt="Animal Image"/></td>
+			<td class="hover-effect">@animal.Name</td>
+			<td class="hover-effect">@animal.Description</td>
+			<td class="hover-effect">@(animal?.Comments?.Count() ?? 0)</td>
+		</tr>
+	}
+	
+</table>
+
